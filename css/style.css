@@ -135,6 +135,64 @@ section .background-blue {
   background: #6663FF;
 }
 
+footer {
+  background: #D7D4FF;
+  padding: 5rem 0;
+}
+
+footer h2 {
+  text-align: center;
+  color: #2B2B2B;
+  font-family: 'Merriweather';
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+}
+
+footer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+footer form input,
+footer form textarea {
+  padding: 1rem 1.25rem;
+  color: rgba(110, 114, 117, 0.74);
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+
+  width: 100%;
+}
+
+footer form input::placeholder,
+footer form textarea::placeholder {
+  color: rgba(110, 114, 117, 0.74);
+}
+
+footer form button {
+  width: 100%;
+  border-radius: 0.25rem;
+  background: #6C63FF;
+  box-shadow: 0px 5px 5px 0px rgba(23, 23, 23, 0.10);
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.875rem 3rem;
+  transition: 0.2s;
+}
+
+footer form button:hover {
+  cursor: pointer;
+  filter: brightness(120%) saturate(120%);
+}
+
 
 @media (max-width: 950px) {
   .header-grid {
@@ -145,7 +203,6 @@ section .background-blue {
     padding: 2rem 0;
   }
   
-
   header .header-content h1 {
     width: 100%;
   }
