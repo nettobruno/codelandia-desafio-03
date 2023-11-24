@@ -1,5 +1,5 @@
 # Codelândia desafio 03
-Este foi o meu desenvolvimento do terceiro desafio criado pelo [Iuri Code](https://github.com/iuricode), e disponibilizado na comuidade Codelândia.
+Este foi o meu desenvolvimento do terceiro desafio criado pelo [Iuri Code](https://github.com/iuricode), e disponibilizado na comunidade Codelândia.
 Meu objetivo era colocar em prática HTML e CSS, já que no dia a dia de trabalho acabamos trabalhando com coisas mais avançadas, e acamos deixando a base de lado.
 
 </br>
