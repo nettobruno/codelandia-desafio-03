@@ -73,6 +73,69 @@ header .header-image img {
 }
 
 
+section {
+  padding: 9rem 0;
+}
+
+section .section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 6rem;
+}
+
+section .card {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10);
+}
+
+section .card-background {
+  height: 12rem;
+}
+
+section .card-content {
+  padding: 1.5rem;
+}
+
+section .card-content h3 {
+  color: #2B2B2B;
+  font-family: 'Merriweather';
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.625rem;
+}
+
+section .card-content p {
+  color: #555;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2.438rem;
+}
+
+section .background-red {
+  background: #FF6363;
+}
+
+section .background-cyan {
+  background: #63ECFF;
+}
+
+section .background-pink {
+  background: #F363FF;
+}
+
+section .background-green {
+  background: #63FF73;
+}
+
+section .background-yellow {
+  background: #FFDD63;
+}
+
+section .background-blue {
+  background: #6663FF;
+}
+
+
 @media (max-width: 950px) {
   .header-grid {
     grid-gap: 2rem;
@@ -89,6 +152,10 @@ header .header-image img {
   
   header .header-content p {
     width: 100%;
+  }
+
+  section .section-grid {
+    grid-gap: 1rem;
   }
 }
 
@@ -124,6 +191,11 @@ header .header-image img {
     margin: 0 auto;
     display: block;
   }
+
+  section .section-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 500px) {
@@ -141,5 +213,10 @@ header .header-image img {
 
   header .header-content button {
     margin: 0;
+  }
+
+  section .section-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
   }
 }
